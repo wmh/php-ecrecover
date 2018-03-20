@@ -1,0 +1,17 @@
+{
+    "name": "wmh/php-ecrecover",
+    "description": "PHP ECRecover Example",
+    "keywords": ["ecrecover"],
+    "license": "CC0",
+    "authors": [
+        {
+            "name": "Hunter Wu",
+            "homepage": "https://github.com/wmh/php-ecrecover"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "kornrunner/keccak": "^1.0",
+        "ext-gmp": "*"
+    }
+}

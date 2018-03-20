@@ -1,0 +1,3 @@
+[submodule "CryptoCurrencyPHP"]
+	path = CryptoCurrencyPHP
+	url = https://github.com/tuaris/CryptoCurrencyPHP.git
