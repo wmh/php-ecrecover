@@ -28,6 +28,10 @@ function ecRecover($hex, $signed) {
     $rGmp = gmp_init("0x" . $r);
     $sGmp = gmp_init("0x" . $s);
 
+    if ($v != 27 && $v != 28) {
+        $v += 27;
+    }
+
     $recovery = $v - 27;
     if ($recovery !== 0 && $recovery !== 1) {
         throw new Exception('Invalid signature v value');
