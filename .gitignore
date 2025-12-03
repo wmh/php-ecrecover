@@ -1,2 +1,7 @@
-vendor/
-composer.lock
+/vendor/
+/composer.lock
+/composer.phar
+/.phpunit.cache/
+.DS_Store
+.idea/
+*.log
